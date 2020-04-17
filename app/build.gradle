@@ -17,7 +17,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId 'com.shopapp.efendi'
+        applicationId 'ua.opu.eai185'
 
         manifestPlaceholders = [onesignal_app_id: "c2bf748e-90a9-435c-b46a-ed40403542c4",
                                 // Project number pulled from dashboard, local value is ignored.

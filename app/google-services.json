@@ -1,39 +1,37 @@
 {
   "project_info": {
-    "project_number": "442471110560",
-    "firebase_url": "https://efendicoffee-ac59e.firebaseio.com",
-    "project_id": "efendicoffee-ac59e",
-    "storage_bucket": "efendicoffee-ac59e.appspot.com"
+    "project_number": "484193451650",
+    "firebase_url": "https://bookshop-a78ea.firebaseio.com",
+    "project_id": "bookshop-a78ea",
+    "storage_bucket": "bookshop-a78ea.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:442471110560:android:e1b61475d017925c",
+        "mobilesdk_app_id": "1:484193451650:android:d49e3efc0dbf4b8d753e9b",
         "android_client_info": {
-          "package_name": "com.shopapp.efendi"
+          "package_name": "ua.opu.eai185"
         }
       },
       "oauth_client": [
         {
-          "client_id": "442471110560-n2mtnt1e3u2p0pm3oi5qbhh069ukb5lk.apps.googleusercontent.com",
+          "client_id": "484193451650-3hso0tsanb30vt3sre523ov0fdtei46k.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCs14WtOR_dCjjzjYclCJ7Fo6JaTCj4F0w"
+          "current_key": "AIzaSyBCYRe9oxhYKaOs_NIaxGG9N-8xCmh0t14"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484193451650-3hso0tsanb30vt3sre523ov0fdtei46k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
