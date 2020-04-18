@@ -36,9 +36,7 @@ public class FragmentProfile extends Fragment {
         sharedPref = new SharedPref(getActivity());
 
         lyt_root = view.findViewById(R.id.lyt_root);
-        if (Config.ENABLE_RTL_MODE) {
-            lyt_root.setRotationY(180);
-        }
+
 
         txt_user_name = view.findViewById(R.id.txt_user_name);
         txt_user_email = view.findViewById(R.id.txt_user_email);

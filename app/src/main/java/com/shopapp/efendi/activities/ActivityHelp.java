@@ -26,12 +26,6 @@ public class ActivityHelp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_help);
 
-        if (Config.ENABLE_RTL_MODE) {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
-                getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
-            }
-        }
-
         Intent intent = getIntent();
         str_title = intent.getStringExtra("title");
         str_content = intent.getStringExtra("content");
@@ -74,11 +68,7 @@ public class ActivityHelp extends AppCompatActivity {
                 + htmlText
                 + "</body></html>";
 
-        if (Config.ENABLE_RTL_MODE) {
-            content.loadDataWithBaseURL(null, text_rtl, mimeType, encoding, null);
-        } else {
-            content.loadDataWithBaseURL(null, text, mimeType, encoding, null);
-        }
+        content.loadDataWithBaseURL(null, text, mimeType, encoding, null);
 
     }
 

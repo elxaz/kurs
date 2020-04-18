@@ -97,12 +97,6 @@ public class ActivityNotificationDetail extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notification_detail);
 
-        if (Config.ENABLE_RTL_MODE) {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
-                getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
-            }
-        }
-
         dbhelper = new DBHelper(this);
         getData();
         initComponent();
@@ -298,12 +292,7 @@ public class ActivityNotificationDetail extends AppCompatActivity {
                 + htmlText
                 + "</body></html>";
 
-        if (Config.ENABLE_RTL_MODE) {
-            txt_product_description.loadDataWithBaseURL(null, text_rtl, mimeType, encoding, null);
-        } else {
-            txt_product_description.loadDataWithBaseURL(null, text, mimeType, encoding, null);
-        }
-
+        txt_product_description.loadDataWithBaseURL(null, text, mimeType, encoding, null);
     }
 
     public void inputDialog() {

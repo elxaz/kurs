@@ -72,12 +72,6 @@ public class ActivityHistory extends AppCompatActivity {
         setContentView(R.layout.activity_history);
         view = findViewById(android.R.id.content);
 
-        if (Config.ENABLE_RTL_MODE) {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
-                getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
-            }
-        }
-
         final Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         final ActionBar actionBar = getSupportActionBar();

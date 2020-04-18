@@ -42,12 +42,6 @@ public class ActivitySettings extends PreferenceActivity {
         addPreferencesFromResource(R.xml.setting_preferences);
         parent_view = findViewById(android.R.id.content);
 
-        if (Config.ENABLE_RTL_MODE) {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
-                getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
-            }
-        }
-
         sharedPref = new SharedPref(this);
 
         final EditTextPreference prefName = (EditTextPreference) findPreference(getString(R.string.pref_title_name));

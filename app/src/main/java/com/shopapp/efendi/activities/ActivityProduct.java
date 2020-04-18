@@ -52,12 +52,6 @@ public class ActivityProduct extends AppCompatActivity implements RecyclerAdapte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_product);
 
-        if (Config.ENABLE_RTL_MODE) {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
-                getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
-            }
-        }
-
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

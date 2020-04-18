@@ -59,9 +59,7 @@ public class FragmentRecent extends Fragment implements RecyclerAdapterProduct.C
         swipeRefreshLayout.setRefreshing(true);
 
         lyt_root = view.findViewById(R.id.lyt_root);
-        if (Config.ENABLE_RTL_MODE) {
-            lyt_root.setRotationY(180);
-        }
+
 
         recyclerView = view.findViewById(R.id.recycler_view);
         productList = new ArrayList<>();

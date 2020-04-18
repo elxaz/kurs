@@ -77,12 +77,6 @@ public class ActivityCheckout extends AppCompatActivity {
         setContentView(R.layout.activity_checkout);
         view = findViewById(android.R.id.content);
 
-        if (Config.ENABLE_RTL_MODE) {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
-                getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
-            }
-        }
-
         sharedPref = new SharedPref(this);
 
         setupToolbar();
@@ -233,7 +227,6 @@ public class ActivityCheckout extends AppCompatActivity {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     requestAction();
-                    //new sendData().execute();
                 }
             });
             builder.setNegativeButton(getResources().getString(R.string.dialog_option_no), null);

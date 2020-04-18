@@ -62,12 +62,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         view = findViewById(android.R.id.content);
 
-        if (Config.ENABLE_RTL_MODE) {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
-                getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
-            }
-        }
-
         AppBarLayout appBarLayout = findViewById(R.id.tab_appbar_layout);
         ((CoordinatorLayout.LayoutParams) appBarLayout.getLayoutParams()).setBehavior(new AppBarLayoutBehavior());
 
@@ -148,15 +142,7 @@ public class MainActivity extends AppCompatActivity {
             throw sqle;
         }
 
-//        if (dbhelper.isPreviousDataExist()) {
-//            showAlertDialog();
-//        }
-
         makeJsonObjectRequest();
-
-        if (Config.ENABLE_RTL_MODE) {
-            viewPager.setRotationY(180);
-        }
 
     }
 

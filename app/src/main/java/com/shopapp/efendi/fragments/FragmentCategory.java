@@ -58,9 +58,6 @@ public class FragmentCategory extends Fragment implements RecyclerAdapterCategor
         swipeRefreshLayout = (SwipeRefreshLayout) view.findViewById(R.id.swipeRefreshLayout);
 
         lyt_root = view.findViewById(R.id.lyt_root);
-        if (Config.ENABLE_RTL_MODE) {
-            lyt_root.setRotationY(180);
-        }
 
         recyclerView = view.findViewById(R.id.recycler_view);
         categoryList = new ArrayList<>();
