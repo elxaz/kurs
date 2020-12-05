@@ -1,0 +1,30 @@
+<html lang="en"><head>
+	<link rel="stylesheet" type="text/css" href="../styles/error.css">
+</head>
+
+
+<body>
+<div id="errors" style="color:red;">Пользователь с таким логином не найден!</div><hr>
+
+
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../styles/login.css">
+	<link rel="shortcut icon" href="../img/smallest.png" type="image/x-icon">
+	<title>ICS-media</title>
+
+
+	<div class="login">
+		<h2>Авторизация</h2>
+		<form action="login.php" method="POST">
+			<input type="text" name="login" placeholder="Введите логин" required="" value="user"><br><br>
+			<input type="password" name="password" required="" placeholder="Введите пароль" value="password"><br><br>
+	
+			<button type="submit" name="do_login">Войти</button>
+			<a href="newPassword.php">Восстановить пароль</a>
+		</form>
+	</div>
+
+
+</body></html>

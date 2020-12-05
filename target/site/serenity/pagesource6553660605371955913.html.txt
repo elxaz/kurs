@@ -1,0 +1,20 @@
+<html><head>
+	<link rel="stylesheet" type="text/css" href="../styles/error.css">
+</head>
+<body>
+
+
+	
+
+	<link rel="stylesheet" type="text/css" href="../styles/error.css">
+
+
+
+
+<div class="validation">Фильма с таким названием не найдено</div>
+
+<a href="../index.php">Вернуться на главную страницу</a>
+
+
+
+</body></html>

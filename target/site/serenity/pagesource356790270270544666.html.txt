@@ -1,0 +1,49 @@
+<html lang="en"><head>
+	<link rel="stylesheet" type="text/css" href="../styles/error.css">
+</head>
+
+
+<body>
+
+
+
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../styles/template.css">
+	<link rel="shortcut icon" href="../img/smallest.png" type="image/x-icon">
+	<title>Addidng film</title>
+
+
+
+
+
+	<div class="header" align="center">
+		<img src="../img/smalllogo.png" class="smalllogo">
+	<div class="adder" align="center">
+	 	<h2>Adding film</h2>
+	 	<form method="POST">
+	 	 	<input type="text" name="filmName" align="center" placeholder="Name" class="add"><br><br>
+	 	 	<input type="text" name="filmURL" align="center" placeholder="URL" class="add"><br><br>
+	 	 	<input type="text" name="genre" align="center" placeholder="Genre" class="add"><br><br>
+	 	 	<input type="text" name="year" align="center" placeholder="Year" class="add"><br><br>
+	 	 	<input type="text" name="director" align="center" placeholder="Director" class="add"><br><br>
+	 	 	<input type="text" name="country" align="center" placeholder="Country" class="add"><br><br>
+	 	 	<input type="text" name="actor" align="center" placeholder="Actor" class="add"><br><br>
+	 	 	<input type="text" name="poster" align="center" v="" placeholder="Link to poster" class="add"><br><br>
+	 	 	<input type="file" name="file" align="center" v="" placeholder="Link to poster" class="add"><br>
+	 	 		 	 	<input type="textarea" name="description" align="center" placeholder="Description" class="add"><br><br>
+
+	 	 	<input type="submit" class="addBtn">
+	 	</form>
+	 </div>
+
+
+
+	<div class="footer">
+		<div class="copy">© ICS-media 2020</div>
+		<span class="media"><a href=""><img src="../img/inst.png"></a> <a href="https://t.me/joinchat/KIDuQh0XguS1gSAbg-YkWg"><img src="../img/telega.png"></a></span>
+	</div>
+
+	 
+</div></body></html>

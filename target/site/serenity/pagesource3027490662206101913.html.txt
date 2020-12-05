@@ -1,0 +1,103 @@
+<html lang="en"><head>
+	<link rel="stylesheet" type="text/css" href="../styles/error.css">
+</head>
+
+
+<body>
+	
+	
+
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=9, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../styles/template.css">
+	<link rel="shortcut icon" href="../img/smallest.png" type="image/x-icon">
+	<title>Король Лев</title>
+
+
+		<div class="header" align="center">
+
+		<table border="0" width="100%" class="headerTable">
+		<tbody><tr><td>
+		<a href="../index.php"><img src="../img/smalllogo.png" class="smalllogo"></a>
+		<a href="../cgi/index.php"><img src="../img/login.png" class="loginImg"></a>
+		</td>
+		<td>
+		<div class="dropdown">
+		<button onclick="myFunction()" class="dropbtn">Фильтры</button>
+		  <div id="myDropdown" class="dropdown-content">
+		    <form method="GET" action="search.php">
+		    	<input type="text" name="filmSearch" placeholder="Название фильма" id="myInput">
+		    	<br>
+		    	<input type="submit" name="btn" value="Поиск" id="myInputBtn">
+		    </form>
+
+		    <a href="filters/year/yearFilter.php">Фильтр по году</a>
+		    <a href="filters/genre/genreFilter.php">Фильтр по жанру</a>
+		    <a href="filters/country/countryFilter.php">Фильтр по стране</a>
+		    <a href="randomFilms.php">Что посмотреть</a>
+		  </div>
+		</div>
+		</td>
+		</tr></tbody></table>
+		<script>
+		function myFunction() {
+		    document.getElementById("myDropdown").classList.toggle("show");
+		}
+		</script>
+	</div>
+<!-- Вся страничка с контентом -->
+<div class="film" align="center">
+		<div class="filmHead">
+			<!-- Постер -->
+			</div><table cellpadding="10">
+		<tbody><tr><th>
+				</th><td align="center">
+					<img src="http://2uhd.tabfilm.ru/uploads/posts/2019-11/1573685745-1877941810-korol-lev.jpg" width="189" height="255" alt="lorem">
+					<p>Рейтинг: 0</p>
+				</td>
+			
+			
+
+			
+			<td></td><td></td><td></td>
+			<td>
+			<!-- Имя фильма -->
+				<h2>Король Лев</h2>
+							
+			<!-- Описание фильмов -->
+			
+				<p>Добро пожаловать в Африку, где до сих пор полно мест, не тронутых человеческой цивилизацией.Здесь обитают дикие животные, которые подчиняются своим собственным законам. В одной из отдаленных частей пустыни, в которой проживают десятки различных видов, королем является отважный Лев, который поддерживает саванну в чистоте и порядке. Он является достойным правителем, которого уважает каждый житель. За годы своего правления он превратил это местечко в настоящий рай для животных. И совсем скоро у короля должен будет родиться наследник Симба, которого ждет непростая судьба.
+</p>
+			</td>
+		
+		</tr></tbody></table>
+
+
+		<!-- Видео -->
+		<div class="filmCenter">
+			<iframe src="//vid1607004876061.vb17120ayeshajenkins.pw/movie/f84897c105cd6b46cd09137944ce6851/iframe" align="center" width="640" height="360" frameborder="0" allowfullscreen=""></iframe>
+		</div>
+		<br>
+		
+		<div class="info">Если вы хотите оставить комментарий пожалуйста <a href="index.php">зарегестрируйтесь</a></div>
+
+</div>
+
+
+	<div class="footer">
+		<table class="headerTable">
+		<tbody><tr><th>
+		<div align="left" class="copy">© ICS-media 2020</div>
+		</th>
+		<th>
+		<span class="media"><a href=""><img src="../img/inst.png"></a> <a href="https://t.me/joinchat/KIDuQh0XguS1gSAbg-YkWg"><img src="../img/telega.png"></a></span>
+		</th>
+		</tr></tbody></table>
+	</div>
+			
+
+
+
+
+</body></html>

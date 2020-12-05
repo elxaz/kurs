@@ -1,0 +1,104 @@
+<html lang="en"><head>
+	<link rel="stylesheet" type="text/css" href="../styles/error.css">
+</head>
+
+
+<body>
+	
+	
+
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=9, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../styles/template.css">
+	<link rel="shortcut icon" href="../img/smallest.png" type="image/x-icon">
+	<title>Мулан</title>
+
+
+		<div class="header" align="center">
+
+		<table border="0" width="100%" class="headerTable">
+		<tbody><tr><td>
+		<a href="../index.php"><img src="../img/smalllogo.png" class="smalllogo"></a>
+		<a href="../cgi/index.php"><img src="../img/login.png" class="loginImg"></a>
+		</td>
+		<td>
+		<div class="dropdown">
+		<button onclick="myFunction()" class="dropbtn">Фильтры</button>
+		  <div id="myDropdown" class="dropdown-content">
+		    <form method="GET" action="search.php">
+		    	<input type="text" name="filmSearch" placeholder="Название фильма" id="myInput">
+		    	<br>
+		    	<input type="submit" name="btn" value="Поиск" id="myInputBtn">
+		    </form>
+
+		    <a href="filters/year/yearFilter.php">Фильтр по году</a>
+		    <a href="filters/genre/genreFilter.php">Фильтр по жанру</a>
+		    <a href="filters/country/countryFilter.php">Фильтр по стране</a>
+		    <a href="randomFilms.php">Что посмотреть</a>
+		  </div>
+		</div>
+		</td>
+		</tr></tbody></table>
+		<script>
+		function myFunction() {
+		    document.getElementById("myDropdown").classList.toggle("show");
+		}
+		</script>
+	</div>
+<!-- Вся страничка с контентом -->
+<div class="film" align="center">
+		<div class="filmHead">
+			<!-- Постер -->
+			</div><table cellpadding="10">
+		<tbody><tr><th>
+				</th><td align="center">
+					<img src="http://cl.tabfil.me/uploads/posts/2020-02/1581641163-1713490264-mulan.jpg" width="189" height="255" alt="lorem">
+					<p>Рейтинг: <br>
+<b>Warning</b>:  Division by zero in <b>C:\xampp\htdocs\cgi\view.php</b> on line <b>249</b><br>
+NAN</p>
+				</td>
+			
+			
+
+			
+			<td></td><td></td><td></td>
+			<td>
+			<!-- Имя фильма -->
+				<h2>Мулан</h2>
+							
+			<!-- Описание фильмов -->
+			
+				<p>Мулан - молодая девушка, проживающая на территории Китая. Много лет назад великая империя была раздроблена и страдала от войн. Внешние враги пользовались ситуацией и наносили по Китаю сокрушительные удары. И на сей раз Северные захватчики приблизились к завоеванию Китая как никогда прежде. Императору не остается иного выхода, кроме как издать указ о масштабной мобилизации. Каждая семья обязуется отправить в армию одного мужчину. Но сложность заключается в том, что среди родственников Мулан есть только один мужчина - ее отец. Он уже стар и не способен воевать. Чтобы защитить любимого отца, девушка решается на необычную авантюру...</p>
+			</td>
+		
+		</tr></tbody></table>
+
+
+		<!-- Видео -->
+		<div class="filmCenter">
+			<iframe src="//vid1606218182860.vb17120ayeshajenkins.pw/movie/1990f9956afbf44999435b6f436096e3/iframe" align="center" width="640" height="360" frameborder="0" allowfullscreen=""></iframe>
+		</div>
+		<br>
+		
+		<div class="info">Если вы хотите оставить комментарий пожалуйста <a href="index.php">зарегестрируйтесь</a></div>
+
+</div>
+
+
+	<div class="footer">
+		<table class="headerTable">
+		<tbody><tr><th>
+		<div align="left" class="copy">© ICS-media 2020</div>
+		</th>
+		<th>
+		<span class="media"><a href=""><img src="../img/inst.png"></a> <a href="https://t.me/joinchat/KIDuQh0XguS1gSAbg-YkWg"><img src="../img/telega.png"></a></span>
+		</th>
+		</tr></tbody></table>
+	</div>
+			
+
+
+
+
+</body></html>

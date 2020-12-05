@@ -1,0 +1,74 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/show.css">
+    <link rel="stylesheet" type="text/css" href="../styles/template.css">
+    <link rel="stylesheet" type="text/css" href="../styles/new_tem.css">
+    <link rel="shortcut icon" href="../img/smallest.png" type="image/x-icon">
+    <title>Фильмы</title>
+</head>
+<body>
+
+
+    <div class="header" align="center">
+
+    <table border="0" width="100%" class="headerTable">
+    <tbody><tr><td>
+    <a href="../index.php"><img src="../img/smalllogo.png" class="smalllogo"></a>
+    <a href="index.php"><img src="../img/login.png" class="loginImg"></a>
+    </td>
+    <td>
+    <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Фильтры</button>
+      <div id="myDropdown" class="dropdown-content">
+        <form method="GET" action="search.php">
+          <input type="text" name="filmSearch" placeholder="Название фильма" id="myInput">
+          <br>
+          <input type="submit" name="btn" value="Поиск" id="myInputBtn">
+        </form>
+
+        <a href="filters/year/yearFilter.php">Фильтр по году</a>
+        <a href="randomFilms.php">Что посмотреть</a>
+        <a href="filters/country/countryFilter.php">Фильтр по стране</a>
+        <a href="filters/genre/genreFilter.php">Фильтр по жанру</a>
+        
+         </div>
+    </div>
+    </td>
+    </tr></tbody></table>
+    <script>
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+    </script>
+  </div>
+
+
+    
+
+	<link rel="stylesheet" type="text/css" href="../styles/error.css">
+
+
+
+
+<table class="filmtable" align="center"> <tbody><tr><th><div class="plates"><a href="view.php?id=2"><img src="http://cl.tabfil.me/uploads/posts/2020-09/1600100068-351862604-grenlandiya.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Гренландия</xmp></div></th><th><div class="plates"><a href="view.php?id=3"><img src="http://cl.tabfil.me/uploads/posts/2020-09/1600601257-1692438063-dyavol-vsegda-zdes.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Дьявол всегда здесь</xmp></div></th><th><div class="plates"><a href="view.php?id=4"><img src="http://cl.tabfil.me/uploads/posts/2020-02/1581641163-1713490264-mulan.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Мулан</xmp></div></th><th><div class="plates"><a href="view.php?id=6"><img src="http://cl.tabfil.me/uploads/posts/2020-11/1605810233-11082463-izbavi-nas-ot-lukavogo.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Избави нас от лукавого</xmp></div></th></tr><tr><th><div class="plates"><a href="view.php?id=8"><img src="http://cl.tabfil.me/uploads/posts/2020-11/1605629561-753015432-vedmy.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Ведьмы</xmp></div></th><th><div class="plates"><a href="view.php?id=9"><img src="http://cl.tabfil.me/uploads/posts/2020-11/1605629135-845611326-opasnyy-element.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Опасный элемент</xmp></div></th><th><div class="plates"><a href="view.php?id=10"><img src="http://cl.tabfil.me/uploads/posts/2020-11/1605628552-1945304984-poslednyaya-kaplya.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Последняя капля</xmp></div></th><th><div class="plates"><a href="view.php?id=12"><img src="http://cl.tabfil.me/uploads/posts/2020-09/1599256386-773867583-budka-poceluev-2.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Будка поцелуев 2</xmp></div></th></tr><tr><th><div class="plates"><a href="view.php?id=33"><img src="poster" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">name</xmp></div></th></tr></tbody></table>        <br><br>
+
+            <div class="footer">
+        <table class="headerTable">
+        <tbody><tr><th>
+        <div align="left" class="copy">© ICS-media 2020</div>
+        </th>
+        <th>
+        <span class="media"><a href=""><img src="../img/inst.png"></a> <a href="https://t.me/joinchat/KIDuQh0XguS1gSAbg-YkWg"><img src="../img/telega.png"></a></span>
+        </th>
+        </tr></tbody></table>
+    </div>
+         
+       
+
+
+
+
+
+
+</body></html>

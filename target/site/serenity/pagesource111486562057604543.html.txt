@@ -1,0 +1,97 @@
+<html lang="en"><head>
+	<link rel="stylesheet" type="text/css" href="../styles/error.css">
+</head>
+
+
+<body>
+
+
+
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ICS-media</title>
+	<link rel="shortcut icon" href="img/smallest.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="styles/template.css">
+
+
+	<div class="header" align="center">
+
+		<table border="0" width="100%" class="headerTable">
+		<tbody><tr><th>
+		<a href="index.php"><img src="img/smalllogo.png" class="smalllogo"></a>
+		<a href="cgi/index.php"><img src="img/login.png" class="loginImg"></a>
+		</th>
+
+		<th>
+		<div class="dropdown">
+		<button onclick="myFunction()" class="dropbtn">Фильтры</button>
+		  <div id="myDropdown" class="dropdown-content">
+		    <form method="GET" action="cgi/search.php">
+		    	<input type="text" name="filmSearch" placeholder="Название фильма" id="myInput">
+		    	<br>
+		    	<input type="submit" name="btn" value="Поиск" id="myInputBtn">
+		    </form>
+
+		    <a href="cgi/filters/year/yearFilter.php">Фильтр по году</a>
+		    <a href="cgi/randomFilms.php">Что посмотреть</a>
+		    <a href="#blog">Blog</a>
+		    <a href="#contact">Contact</a>
+		    <a href="#custom">Custom</a>
+		    <a href="#support">Support</a>
+		    <a href="#tools">Tools</a>
+		  </div>
+		</div>
+		</th>
+		</tr></tbody></table>
+		<script>
+		function myFunction() {
+		    document.getElementById("myDropdown").classList.toggle("show");
+		}
+		</script>
+	</div>
+	<h2 align="center">Каталог</h2>
+	<div align="center" class="mainWindow">
+		
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/show.css">
+    <title>Фильмы</title>
+
+
+    <br>
+<b>Notice</b>:  Trying to access array offset on value of type null in <b>C:\xampp\htdocs\cgi\show.php</b> on line <b>56</b><br>
+<br>
+<b>Notice</b>:  Trying to access array offset on value of type null in <b>C:\xampp\htdocs\cgi\show.php</b> on line <b>57</b><br>
+<br>
+<b>Notice</b>:  Trying to access array offset on value of type null in <b>C:\xampp\htdocs\cgi\show.php</b> on line <b>58</b><br>
+<br>
+<b>Notice</b>:  Trying to access array offset on value of type null in <b>C:\xampp\htdocs\cgi\show.php</b> on line <b>59</b><br>
+<table class="filmtable" align="center"> <tbody><tr><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=24"><img src="http://2uhd.tabfilm.ru/uploads/posts/2019-11/1573683803-1621037062-v-teni-luny.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">В тени Луны</xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=2"><img src="http://cl.tabfil.me/uploads/posts/2020-09/1600100068-351862604-grenlandiya.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Гренландия</xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=30"><img src="asdf" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">adf</xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=5"><img src="http://cl.tabfil.me/uploads/posts/2020-11/1606162848-996648239-chudo-v-kamere-7.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Чудо в камере №7</xmp></div></th></tr><tr><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=1"><img src="http://cl.tabfil.me/uploads/posts/2020-08/1598283257-1400381042-v-metre-drug-ot-druga.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">В метре друг от друга </xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id="><img src="" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv"></xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=16"><img src="http://2uhd.tabfilm.ru/uploads/posts/2019-11/1573685184-1843822889-kvant-miloserdiya.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Квант милосердия</xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=15"><img src="http://2uhd.tabfilm.ru/uploads/posts/2019-11/1573685295-363911899-kazino-royal.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Казино Рояль</xmp></div></th></tr><tr><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=18"><img src="http://2uhd.tabfilm.ru/uploads/posts/2019-11/1573685620-1700869644-uzhastiki.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Ужастики</xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=23"><img src="http://2uhd.tabfilm.ru/uploads/posts/2019-11/1573683876-888138421-rapuncel-zaputannaya-istoriya.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Рапунцель: Запутанная история</xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=10"><img src="http://cl.tabfil.me/uploads/posts/2020-11/1605628552-1945304984-poslednyaya-kaplya.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Последняя капля</xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=20"><img src="http://2uhd.tabfilm.ru/uploads/posts/2019-11/1573685544-870013017-roman-izrael-esq.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Роман Израэл, Esq.</xmp></div></th></tr><tr><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=17"><img src="http://2uhd.tabfilm.ru/uploads/posts/2019-11/1573685745-1877941810-korol-lev.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Король Лев</xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=9"><img src="http://cl.tabfil.me/uploads/posts/2020-11/1605629135-845611326-opasnyy-element.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Опасный элемент</xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=22"><img src="http://2uhd.tabfilm.ru/uploads/posts/2019-11/1573683965-116543732-plohie-parni.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Плохие парни</xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=27"><img src="http://2uhd.tabfilm.ru/uploads/posts/2019-11/1573683556-614344367-mumiya.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Мумия </xmp></div></th></tr><tr><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=6"><img src="http://cl.tabfil.me/uploads/posts/2020-11/1605810233-11082463-izbavi-nas-ot-lukavogo.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Избави нас от лукавого</xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=14"><img src="http://2uhd.tabfilm.ru/uploads/posts/2019-11/1573685358-1024957053-forsazh-hobbs-i-shou.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Форсаж: Хоббс и Шоу</xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=4"><img src="http://cl.tabfil.me/uploads/posts/2020-02/1581641163-1713490264-mulan.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Мулан</xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=7"><img src="http://cl.tabfil.me/uploads/posts/2020-11/1605809919-88865739-eta-zamechatelnaya-zagrobnaya-zhizn.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Эта замечательная загробная жизнь</xmp></div></th></tr><tr><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=11"><img src="http://cl.tabfil.me/uploads/posts/2020-11/1605628308-1569471992-bolshoy-fanat.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Большой фанат</xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=12"><img src="http://cl.tabfil.me/uploads/posts/2020-09/1599256386-773867583-budka-poceluev-2.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Будка поцелуев 2</xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=8"><img src="http://cl.tabfil.me/uploads/posts/2020-11/1605629561-753015432-vedmy.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Ведьмы</xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=25"><img src="http://2uhd.tabfilm.ru/uploads/posts/2019-11/1573683680-1815527136-strashnye-istorii-dlya-rasskaza-v-temnote.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Страшные истории для рассказа в темноте</xmp></div></th></tr><tr><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=19"><img src="http://2uhd.tabfilm.ru/uploads/posts/2019-11/1573685522-1988314168-inoplanetyanin.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Инопланетянин</xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=13"><img src="http://2uhd.tabfilm.ru/uploads/posts/2019-11/1573685427-402299466-zdravstvuy-papa-novyy-god.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Здравствуй, папа, Новый год!</xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=28"><img src="http://2uhd.tabfilm.ru/uploads/posts/2019-11/1573683330-1916064934-kosmicheskie-yayca.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Космические яйца</xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=26"><img src="http://2uhd.tabfilm.ru/uploads/posts/2019-11/1573683581-1567193886-siyanie.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Сияние </xmp></div></th></tr><tr><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=21"><img src="http://2uhd.tabfilm.ru/uploads/posts/2019-11/1573683996-1439222886-krepkiy-oreshek.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Крепкий орешек</xmp></div></th><th><div class="plates"><a href="http://lopik.zapto.org/cgi/view.php?id=3"><img src="http://cl.tabfil.me/uploads/posts/2020-09/1600601257-1692438063-dyavol-vsegda-zdes.jpg" width="201" height="300" class="posterInDiv"></a><xmp class="filmNameDiv">Дьявол всегда здесь</xmp></div></th></tr></tbody></table>       
+
+
+
+
+
+
+	</div>
+	<br>
+	<div class="footer">
+		<table class="headerTable">
+		<tbody><tr><th>
+		<div align="left" class="copy">© ICS-media 2020</div>
+		</th>
+		<th>
+		<span class="media"><a href=""><img src="../img/inst.png"></a> <a href="https://t.me/joinchat/KIDuQh0XguS1gSAbg-YkWg"><img src="../img/telega.png"></a></span>
+		</th>
+		</tr></tbody></table>
+	</div>
+
+
+
+
+
+</body></html>
